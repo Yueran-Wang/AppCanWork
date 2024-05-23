@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html class="um landscape min-width-240px min-width-320px min-width-480px min-width-768px min-width-1024px">
+    
+    <head>
+        <title></title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+        <link rel="stylesheet" href="css/fonts/font-awesome.min.css">
+        <link rel="stylesheet" href="css/ui-box.css">
+        <link rel="stylesheet" href="css/ui-base.css">
+        <link rel="stylesheet" href="css/ui-color.css">
+        <link rel="stylesheet" href="css/appcan.icon.css">
+        <link rel="stylesheet" href="css/appcan.control.css">
+        <link rel="stylesheet" href="index/css/index.css">
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+    
+    <body class="" ontouchstart>
+        <div class="bc-bg" tabindex="0" data-control="PAGE" id="Page">
+            <div class="uh bc-head  ubb bc-border" data-control="HEADER" id="Header">
+                <div class="ub">
+                    <div class="nav-btn" id="nav-left">
+                        <div class="fa fa-lg ub-img1">
+                        </div>
+                    </div>
+                    <h1 class="ut ub-f1 ulev-3 ut-s tx-c" tabindex="0">AIModel</h1>
+                    <div class="nav-btn" id="nav-right">
+                        <div class="fa fa-lg  ub-img1">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="" data-control="CONTENT" id="ScrollContent">
+                <div class="scrollbox">
+                    <!-- 以下为正文内容 -->
+
+                    <!-- 轮播图 -->
+                    <div id="slider" class="slider"></div>    
+
+                    <!-- 九宫格 -->
+                    <div id="grid-container">
+                        <div class="grid-item">
+                            <div class="icon"><img src="index/img/积分.png" alt="" /></div>
+                            <div class="text">积分</div>
+                        </div>
+                        <div class="grid-item">
+                            <div class="icon"><img src="index/img/文档.png" alt="" /></div>
+                            <div class="text">文档</div>
+                        </div>
+                        <div class="grid-item" id="weather">
+                            <div class="icon"><img src="index/img/天气.png" alt="" /></div>
+                            <div class="text">天气</div>
+                        </div>
+                        <div class="grid-item" id="photo">
+                            <div class="icon"><img src="index/img/拍照.png" alt="" /></div>
+                            <div class="text">拍照</div>
+                        </div>
+                        <div class="grid-item" id="set">
+                            <div class="icon"><img src="index/img/设置.png" alt="" /></div>
+                            <div class="text">设置</div>
+                        </div>
+                        <div class="grid-item" id="zx">
+                            <div class="icon"><img src="index/img/资讯.png" alt="" /></div>
+                            <div class="text">资讯</div>
+                        </div>
+                        <div class="grid-item" id="call">
+                            <div class="icon"><img src="index/img/电话.png" alt="" /></div>
+                            <div class="text">电话</div>
+                        </div>
+                        <div class="grid-item" id="map">
+                            <div class="icon"><img src="index/img/地图.png" alt="" /></div>
+                            <div the="text">地图</div>
+                        </div>
+                    </div>
+                    
+                    <div class="svg-container" id="open">
+                        <svg width="100%" height="100%" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid meet">
+                            <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle">快来了解OpenAI</text>
+                        </svg>
+                    </div>
+                    <!-- 正文内容结束 -->
+                </div>
+            </div>
+            <div class="uf sc-bg ubt sc-border-tab ub-f1 ub" data-control="FOOTER" id="Footer">
+                <div class="ub-f1 tab-item" id="homeTab">
+                    <div class="tab-icon"><i class="fa fa-home act"></i></div>
+                    <div class="tab-label act">首页</div>
+                </div>
+                <div class="ub-f1 tab-item" id="guideTab">
+                    <div class="tab-icon"><i class="fa fa-list"></i></div>
+                    <div class="tab-label">指南</div>
+                </div>
+                <div class="ub-f1 tab-item" id="personalTab">
+                    <div class="tab-icon"><i class="fa fa-user"></i></div>
+                    <div class="tab-label">我的</div>
+                </div>
+            </div>
+        </div>
+        <script src="js/appcan.js"></script>
+        <script src="js/appcan.control.js"></script>
+        <script src="js/appcan.scrollbox.js"></script>
+        <script src="js/template.import.js"></script>
+        <script src="./assets/mvvm/index.js"></script>
+        <script src="js/tab.js"></script>
+        <script src="./js/index.js"></script>
+
+        <!-- 轮播图 -->
+        <script src="js/appcan.slider.js"></script>
+        <script>
+            var slider = appcan.slider({
+                selector: '#slider',
+                aspectRatio: 8/16,
+                index: 0
+            });
+            slider.set([{
+                img: "index/img/img1.png"
+            }, {
+                img: "index/img/img2.png"
+            }, {
+                img: "index/img/img3.png"
+            }, {
+                img: "index/img/img4.png"
+            }]);
+        </script>
+    </body>
+</html>

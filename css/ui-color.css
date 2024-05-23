@@ -1,0 +1,88 @@
+/*****************************************/
+/* 基础header颜色 */
+.bc-head {
+    background-color: #007bff;
+}
+
+/*****************************************/
+/* 基础body背景颜色 */
+.bc-bg {
+    background-color: #FFFFFF;
+}
+
+/* 辅助控件背景颜色 */
+.sc-bg {
+    background-color: #FFFFFF;
+}
+
+/* 辅助控件背景颜色 - 活跃状态 */
+.sc-bg-active {
+    background-color: #e9ecef;
+}
+
+/* 警告背景色 */
+.sc-bg-alert {
+    background-color: #e74c3c;
+}
+
+/*****************************************/
+/* 基础字体颜色 */
+.bc-text {
+    color: #333;
+}
+
+/* 基础标题字体颜色 */
+.bc-text-head {
+    color: #fff;
+}
+
+/* 辅助字体颜色 */
+.sc-text {
+    color: #666;
+}
+
+/* 辅助字体颜色 - 活跃状态 */
+.sc-text-active {
+    color: #007bff !important;
+}
+
+/* 辅助字体颜色 - 提示信息 */
+.sc-text-hint {
+    color: #95a5a6;
+}
+
+/* 辅助字体颜色 - 警告 */
+.sc-text-warn {
+    color: #e74c3c;
+}
+
+/* 辅助字体颜色 - Tab */
+.sc-text-tab {
+    color: #ccc;
+}
+
+/*****************************************/
+/* 基础边框颜色 */
+.bc-border {
+    border-color: #ccc;
+}
+
+/* 辅助边框颜色 */
+.sc-border {
+    border-color: #FFFFFF;
+}
+
+.sc-border-tab {
+    border-color: #007bff;
+}
+
+/*****************************************/
+/* 基础按钮颜色 */
+.bc-btn {
+    background-color: #007bff;
+}
+
+/* 辅助按钮颜色 */
+.sc-btn {
+    background-color: #ccc;
+}
